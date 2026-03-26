@@ -7,7 +7,7 @@
 **📜 A Curated Roadmap to Mastering World Models \& Reinforcement Learning — and Getting Hired at Frontier AI Labs and Robotics Companies.**
 
 <p align="center">
-  <img src="roadmap-visual-employability.png" alt="World Models Zero to Hired Roadmap" width="100%" style="border-radius: 15px; box-shadow: 0 4px 24px rgba(0,0,0,.1); margin: 5px 0;">
+  <img src="assets/roadmap-visual-employability.png" alt="World Models Zero to Hired Roadmap" width="100%" style="border-radius: 15px; box-shadow: 0 4px 24px rgba(0,0,0,.1); margin: 5px 0;">
 </p>
 
 *Visual generated with* [*Google Gemini*](https://gemini.google.com)
@@ -20,9 +20,9 @@
 
 <table>
   <tr>
-    <td align="center"><img src="meme-left-exit-dreamerv3.png" width="280"/></td>
-    <td align="center"><img src="meme-two-buttons-dreamerv3.png" width="220"/></td>
-    <td align="center"><img src="meme-batman-model-free.png" width="280"/></td>
+    <td align="center"><img src="assets/meme-left-exit-dreamerv3.png" width="280"/></td>
+    <td align="center"><img src="assets/meme-two-buttons-dreamerv3.png" width="220"/></td>
+    <td align="center"><img src="assets/meme-batman-model-free.png" width="280"/></td>
   </tr>
 </table>
 
