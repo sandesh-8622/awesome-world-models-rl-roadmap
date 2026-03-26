@@ -404,6 +404,8 @@ This becomes your research sample for PhD programs or research positions. A nega
 |**JAX + Flax/Optax**|Used heavily at Google DeepMind|Phase 2+|
 |**Isaac Lab**|NVIDIA GPU-accelerated robotics sim|Robotics track|
 |**Genesis**|Fast physics simulator gaining traction|Robotics track|
+|**ManiSkill3**|GPU-parallelized manipulation benchmark, widely used in research|Robotics track|
+|**Habitat 2.0**|Facebook's home-assistant simulation environment|Robotics track|
 |**Hugging Face**|Model hub, datasets, training tools|Throughout|
 |**Git + GitHub**|Non-negotiable. Clean commit history.|Day 1|
 
