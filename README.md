@@ -516,6 +516,7 @@ Curated from:
 
 * [Awesome World Models](https://github.com/knightnemo/Awesome-World-Models) by @knightnemo et al.
 * [Awesome RL](https://github.com/aikorea/awesome-rl) by the aikorea team
+* [Awesome LLM Robotics](https://github.com/GT-RIPL/Awesome-LLM-Robotics) by @zkira et al.
 * Community knowledge from NeurIPS, ICLR, ICRA, and CoRL workshops
 
 Roadmap visual generated with [Google Gemini](https://gemini.google.com). Memes generated via [Imgflip](https://imgflip.com/memegenerator).
