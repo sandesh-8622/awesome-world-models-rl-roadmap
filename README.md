@@ -1,6 +1,6 @@
 <div align="center">
 
-# 🌍 Awesome World Models \& RL — A Curated Employability Roadmap
+# 🌍 Awesome World Models \& RL - A Curated Employability Roadmap
 
 [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome) [![GitHub stars](https://img.shields.io/github/stars/sandesh-8622/awesome-world-models-rl-roadmap?style=social)](https://github.com/sandesh-8622/awesome-world-models-rl-roadmap/stargazers) [![License](https://img.shields.io/badge/License-CC0\_1.0-blue.svg)](LICENSE) [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](CONTRIBUTING.md)
 
