@@ -332,6 +332,20 @@ The gap: neural world models that understand game physics can generate novel con
 
 \---
 
+## ⚠️ Robot Safety & Alignment — Know This Exists
+
+Frontier labs (DeepMind, Physical Intelligence, NVIDIA) are increasingly asking about safety-aware robotics in interviews. You don't need to specialize here, but you should know the landscape.
+
+| Paper | Why It Matters |
+|-------|---------------|
+| **RoboPAIR** — 2025 | First systematic jailbreaking of LLM-controlled robots. Shows why safety can't be bolted on. [![arXiv](https://img.shields.io/badge/arXiv-2410.13691-b31b1b.svg)](https://arxiv.org/abs/2410.13691) |
+| **RoboGuard** — 2025 | Safety guardrails for LLM-enabled robots using a grounded world model. [![arXiv](https://img.shields.io/badge/arXiv-2503.07885-b31b1b.svg)](https://arxiv.org/abs/2503.07885) |
+| **Robots Enact Malignant Stereotypes** — 2022 | The canonical paper on emergent bias in language-grounded robot systems. [![arXiv](https://img.shields.io/badge/arXiv-2207.11569-b31b1b.svg)](https://arxiv.org/abs/2207.11569) |
+
+> Being able to discuss *why* safety matters for embodied systems — not just for LLMs — is a meaningful differentiator in research interviews.
+
+---
+
 ## 🛠️ Portfolio Projects — What Actually Gets You Hired
 
 Recruiters screen by GitHub. **Depth over breadth.** Three strong projects beats ten shallow ones.
