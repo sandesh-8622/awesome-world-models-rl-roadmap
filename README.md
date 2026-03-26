@@ -2,7 +2,7 @@
 
 # 🌍 Awesome World Models \& RL — A Ruthlessly Curated Employability Roadmap
 
-[!\[Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome) [!\[GitHub stars](https://img.shields.io/github/stars/sandesh-8622/awesome-world-models-rl-roadmap?style=social)](https://github.com/sandesh-8622/awesome-world-models-rl-roadmap/stargazers) [!\[License](https://img.shields.io/badge/License-CC0\_1.0-blue.svg)](LICENSE) [!\[PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](CONTRIBUTING.md)
+[![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome) [![GitHub stars](https://img.shields.io/github/stars/sandesh-8622/awesome-world-models-rl-roadmap?style=social)](https://github.com/sandesh-8622/awesome-world-models-rl-roadmap/stargazers) [![License](https://img.shields.io/badge/License-CC0\_1.0-blue.svg)](LICENSE) [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](CONTRIBUTING.md)
 
 **📜 A Ruthlessly Curated Roadmap to Mastering World Models \& Reinforcement Learning — and Getting Hired at Frontier AI Labs and Robotics Companies.**
 
@@ -97,13 +97,13 @@ Work through each phase fully before moving to the next. The single most common 
 
 You need *comfort*, not perfection. Focus on intuition over proofs. These four areas appear constantly in world model papers.
 
-* **Linear Algebra** — [!\[YouTube](https://img.shields.io/badge/YouTube-3Blue1Brown-red.svg)](https://www.youtube.com/playlist?list=PLZHQObOWTQDPD3MizzM2xVFitgF8hE_ab)
+* **Linear Algebra** — [![YouTube](https://img.shields.io/badge/YouTube-3Blue1Brown-red.svg)](https://www.youtube.com/playlist?list=PLZHQObOWTQDPD3MizzM2xVFitgF8hE_ab)
 The visual intuition that every other resource assumes you have. Vectors, matrices, eigenvectors, SVD. Do not skip even if you've taken a course — 3B1B builds the geometric understanding that pure computation misses.
-* **Probability \& Statistics** — [!\[Course](https://img.shields.io/badge/Course-Harvard\_Stats110-blue.svg)](https://projects.iq.harvard.edu/stat110/home)
+* **Probability \& Statistics** — [![Course](https://img.shields.io/badge/Course-Harvard\_Stats110-blue.svg)](https://projects.iq.harvard.edu/stat110/home)
 You cannot read a world models paper without probability. Conditional distributions, Bayes' theorem, expectations — these are in every loss function.
-* **Multivariable Calculus** — [!\[Course](https://img.shields.io/badge/Course-MIT\_18.02-blue.svg)](https://ocw.mit.edu/courses/18-02-multivariable-calculus-fall-2007/)
+* **Multivariable Calculus** — [![Course](https://img.shields.io/badge/Course-MIT\_18.02-blue.svg)](https://ocw.mit.edu/courses/18-02-multivariable-calculus-fall-2007/)
 Gradients, Jacobians, chain rule in multiple dimensions. Needed to understand backpropagation through time and through stochastic variables.
-* **Information Theory (basics)** — [!\[Book](https://img.shields.io/badge/Book-Cover\_%26\_Thomas\_Ch1--2-lightgrey.svg)](https://www.wiley.com/en-us/Elements+of+Information+Theory%252C+2nd+Edition-p-9780471241959)
+* **Information Theory (basics)** — [![Book](https://img.shields.io/badge/Book-Cover\_%26\_Thomas\_Ch1--2-lightgrey.svg)](https://www.wiley.com/en-us/Elements+of+Information+Theory%252C+2nd+Edition-p-9780471241959)
 KL divergence appears in *every* world model loss function — VAE ELBO, DreamerV3's KL balancing, RSSM training. Understand it intuitively before moving on.
 
 > \*\*Gut-check:\*\* Can you derive backpropagation by hand? Can you explain KL divergence and why minimizing it is useful? Can you explain what an eigenvalue means geometrically? That's your bar.
@@ -112,11 +112,11 @@ KL divergence appears in *every* world model loss function — VAE ELBO, Dreamer
 
 ### 🧠 Deep Learning Core
 
-* \[⭐️] **Andrej Karpathy: Neural Networks Zero to Hero** — [!\[YouTube](https://img.shields.io/badge/YouTube-Zero\_to\_Hero-red.svg)](https://www.youtube.com/playlist?list=PLAqhIrjkxbuWI23v9cThsA9GvCAUhRvKZ) [!\[Website](https://img.shields.io/badge/Website-karpathy.ai-blue.svg)](https://karpathy.ai/zero-to-hero.html)
+* \[⭐️] **Andrej Karpathy: Neural Networks Zero to Hero** — [![YouTube](https://img.shields.io/badge/YouTube-Zero\_to\_Hero-red.svg)](https://www.youtube.com/playlist?list=PLAqhIrjkxbuWI23v9cThsA9GvCAUhRvKZ) [![Website](https://img.shields.io/badge/Website-karpathy.ai-blue.svg)](https://karpathy.ai/zero-to-hero.html)
 **Mandatory. Do this first.** The best bottom-up, from-scratch deep learning education in existence. You build micrograd (autograd engine), bigram models, and GPT from scratch. After this series you understand *why* everything works, not just *how* to use it.
-* **fast.ai Practical Deep Learning** — [!\[Website](https://img.shields.io/badge/Website-fast.ai-blue.svg)](https://course.fast.ai/)
+* **fast.ai Practical Deep Learning** — [![Website](https://img.shields.io/badge/Website-fast.ai-blue.svg)](https://course.fast.ai/)
 Balances theory with real hands-on building from day 1. Excellent for CNNs, transfer learning, and the practical tricks that make models actually train.
-* **Deep Learning Book — Goodfellow, Bengio, Courville** — [!\[Website](https://img.shields.io/badge/Website-Free\_Online-blue.svg)](https://www.deeplearningbook.org/)
+* **Deep Learning Book — Goodfellow, Bengio, Courville** — [![Website](https://img.shields.io/badge/Website-Free\_Online-blue.svg)](https://www.deeplearningbook.org/)
 Read Ch. 1–9. Foundations of optimization, regularization, CNNs, RNNs. Dense but authoritative — use as reference.
 
 > ⭐ \*\*Build this:\*\* Implement a character-level language model from scratch following Karpathy's series. Push to GitHub with a clean README. This proves more than a transcript.
@@ -127,13 +127,13 @@ Read Ch. 1–9. Foundations of optimization, regularization, CNNs, RNNs. Dense b
 
 World Models live *inside* RL. The agent uses the world model to imagine futures, then RL to learn a policy from those imagined futures. Without RL fluency, world model papers are unreadable.
 
-* \[⭐️] **Sutton \& Barto — RL: An Introduction** — [!\[PDF](https://img.shields.io/badge/PDF-Free-lightgrey.svg)](http://incompleteideas.net/book/RLbook2020.pdf)
+* \[⭐️] **Sutton \& Barto — RL: An Introduction** — [![PDF](https://img.shields.io/badge/PDF-Free-lightgrey.svg)](http://incompleteideas.net/book/RLbook2020.pdf)
 **The** textbook. Read Ch. 1–8 (tabular methods, DP, Monte Carlo, TD) and Ch. 13 (policy gradients). Understanding the theory makes every deep RL paper dramatically easier.
-* \[⭐️] **David Silver's UCL RL Course** — [!\[YouTube](https://img.shields.io/badge/YouTube-UCL\_Course-red.svg)](https://www.youtube.com/playlist?list=PLqYmG7hTraZBiG_XpjnPrSNw-1XQaM_gB)
+* \[⭐️] **David Silver's UCL RL Course** — [![YouTube](https://img.shields.io/badge/YouTube-UCL\_Course-red.svg)](https://www.youtube.com/playlist?list=PLqYmG7hTraZBiG_XpjnPrSNw-1XQaM_gB)
 Best video lectures in existence. By the AlphaGo author. Lectures 1–9 are essential.
-* **Spinning Up in Deep RL — OpenAI** — [!\[Website](https://img.shields.io/badge/Website-spinningup.ai-blue.svg)](https://spinningup.openai.com/en/latest/) [!\[Code](https://img.shields.io/badge/Code-GitHub-black.svg)](https://github.com/openai/spinningup)
+* **Spinning Up in Deep RL — OpenAI** — [![Website](https://img.shields.io/badge/Website-spinningup.ai-blue.svg)](https://spinningup.openai.com/en/latest/) [![Code](https://img.shields.io/badge/Code-GitHub-black.svg)](https://github.com/openai/spinningup)
 Clean implementations of PPO, SAC, TD3. Read the code — don't just run it.
-* **CS285 Deep RL — UC Berkeley** — [!\[Website](https://img.shields.io/badge/Website-rail.eecs.berkeley.edu-blue.svg)](https://rail.eecs.berkeley.edu/deeprlcourse/)
+* **CS285 Deep RL — UC Berkeley** — [![Website](https://img.shields.io/badge/Website-rail.eecs.berkeley.edu-blue.svg)](https://rail.eecs.berkeley.edu/deeprlcourse/)
 Best advanced RL course. **Lecture 12 (Model-Based RL) is mandatory.**
 
 > ⭐ \*\*Build this:\*\* Train a PPO agent from scratch on `LunarLanderContinuous-v2` or `HalfCheetah-v4`. Document your hyperparameter search — what broke, what worked, why.
@@ -142,11 +142,11 @@ Best advanced RL course. **Lecture 12 (Model-Based RL) is mandatory.**
 
 ### 🐍 Python + PyTorch Proficiency
 
-* **PyTorch Official Tutorials** — [!\[Website](https://img.shields.io/badge/Website-pytorch.org-blue.svg)](https://pytorch.org/tutorials/)
+* **PyTorch Official Tutorials** — [![Website](https://img.shields.io/badge/Website-pytorch.org-blue.svg)](https://pytorch.org/tutorials/)
 Complete the 60-minute blitz, custom datasets, and sequence-to-sequence tutorials.
-* **Karpathy's micrograd** — [!\[Code](https://img.shields.io/badge/Code-GitHub-black.svg)](https://github.com/karpathy/micrograd)
+* **Karpathy's micrograd** — [![Code](https://img.shields.io/badge/Code-GitHub-black.svg)](https://github.com/karpathy/micrograd)
 Build your own autograd engine. The single best exercise for understanding what `loss.backward()` actually does.
-* **labml.ai Annotated Papers** — [!\[Website](https://img.shields.io/badge/Website-nn.labml.ai-blue.svg)](https://nn.labml.ai/)
+* **labml.ai Annotated Papers** — [![Website](https://img.shields.io/badge/Website-nn.labml.ai-blue.svg)](https://nn.labml.ai/)
 Line-by-line annotated implementations. Use as reference when reading model code.
 
 \---
@@ -159,11 +159,11 @@ This is where you separate yourself from everyone who just "does machine learnin
 
 These papers define what a World Model *is* and trace the evolution to current state of the art. Read them before anything else in this phase. Read with a pen — annotate, question, derive.
 
-* \[⭐️] **World Models** — Ha \& Schmidhuber, 2018. The paper that started everything. A VAE encodes observations into a compact latent space; an MDN-RNN models transitions in that latent space; a tiny controller learns a policy using only the latent state. The agent learns to *play inside its own dream*. [!\[arXiv](https://img.shields.io/badge/arXiv-1803.10122-b31b1b.svg)](https://arxiv.org/abs/1803.10122) [!\[Website](https://img.shields.io/badge/Website-worldmodels.github.io-blue.svg)](https://worldmodels.github.io/)
-* \[⭐️] **A Path Towards Autonomous Machine Intelligence** — LeCun, 2022. LeCun's blueprint for the next generation of AI — JEPA, energy-based models, and the argument that prediction in representation space is the right abstraction. Defines the intellectual agenda of half the field. [!\[OpenReview](https://img.shields.io/badge/OpenReview-Paper-8E44AD.svg)](https://openreview.net/pdf?id=BZ5a1r-kVsf)
-* \[⭐️] **Dream to Control (DreamerV1)** — Hafner et al., 2020. First end-to-end world model trained *purely in latent space*. Introduces the RSSM — the architecture all subsequent Dreamer variants use. The agent never trains on real rewards — it trains entirely on imagined rollouts. [!\[arXiv](https://img.shields.io/badge/arXiv-1912.01603-b31b1b.svg)](https://arxiv.org/abs/1912.01603) [!\[Website](https://img.shields.io/badge/Website-danijar.com-blue.svg)](https://danijar.com/project/dreamer/)
-* \[⭐️] **Mastering Atari with Discrete World Models (DreamerV2)** — Hafner et al., 2021. Introduces categorical latent variables via straight-through gradients. More stable training. First world model to match model-free SOTA on Atari. [!\[arXiv](https://img.shields.io/badge/arXiv-2010.02193-b31b1b.svg)](https://arxiv.org/abs/2010.02193) [!\[Code](https://img.shields.io/badge/Code-GitHub-black.svg)](https://github.com/danijar/dreamerv2)
-* \[⭐️] **Mastering Diverse Domains in World Models (DreamerV3)** — Hafner et al., 2023. The current gold standard. One set of hyperparameters works across Atari, DMControl, Minecraft, and robot manipulation. Introduces symlog predictions, free bits KL balancing, return normalization. **Read this paper multiple times.** [!\[arXiv](https://img.shields.io/badge/arXiv-2301.04104-b31b1b.svg)](https://arxiv.org/abs/2301.04104) [!\[Code](https://img.shields.io/badge/Code-GitHub-black.svg)](https://github.com/danijar/dreamerv3)
+* \[⭐️] **World Models** — Ha \& Schmidhuber, 2018. The paper that started everything. A VAE encodes observations into a compact latent space; an MDN-RNN models transitions in that latent space; a tiny controller learns a policy using only the latent state. The agent learns to *play inside its own dream*. [![arXiv](https://img.shields.io/badge/arXiv-1803.10122-b31b1b.svg)](https://arxiv.org/abs/1803.10122) [![Website](https://img.shields.io/badge/Website-worldmodels.github.io-blue.svg)](https://worldmodels.github.io/)
+* \[⭐️] **A Path Towards Autonomous Machine Intelligence** — LeCun, 2022. LeCun's blueprint for the next generation of AI — JEPA, energy-based models, and the argument that prediction in representation space is the right abstraction. Defines the intellectual agenda of half the field. [![OpenReview](https://img.shields.io/badge/OpenReview-Paper-8E44AD.svg)](https://openreview.net/pdf?id=BZ5a1r-kVsf)
+* \[⭐️] **Dream to Control (DreamerV1)** — Hafner et al., 2020. First end-to-end world model trained *purely in latent space*. Introduces the RSSM — the architecture all subsequent Dreamer variants use. The agent never trains on real rewards — it trains entirely on imagined rollouts. [![arXiv](https://img.shields.io/badge/arXiv-1912.01603-b31b1b.svg)](https://arxiv.org/abs/1912.01603) [![Website](https://img.shields.io/badge/Website-danijar.com-blue.svg)](https://danijar.com/project/dreamer/)
+* \[⭐️] **Mastering Atari with Discrete World Models (DreamerV2)** — Hafner et al., 2021. Introduces categorical latent variables via straight-through gradients. More stable training. First world model to match model-free SOTA on Atari. [![arXiv](https://img.shields.io/badge/arXiv-2010.02193-b31b1b.svg)](https://arxiv.org/abs/2010.02193) [![Code](https://img.shields.io/badge/Code-GitHub-black.svg)](https://github.com/danijar/dreamerv2)
+* \[⭐️] **Mastering Diverse Domains in World Models (DreamerV3)** — Hafner et al., 2023. The current gold standard. One set of hyperparameters works across Atari, DMControl, Minecraft, and robot manipulation. Introduces symlog predictions, free bits KL balancing, return normalization. **Read this paper multiple times.** [![arXiv](https://img.shields.io/badge/arXiv-2301.04104-b31b1b.svg)](https://arxiv.org/abs/2301.04104) [![Code](https://img.shields.io/badge/Code-GitHub-black.svg)](https://github.com/danijar/dreamerv3)
 
 > ⭐ \*\*The flagship project:\*\* Implement DreamerV3 from scratch on DMControl Suite. Read the code line by line. Understand every design choice: why symlog? why free bits? what breaks without KL balancing? Document training curves, ablations, and visualize imagined rollouts as GIFs.
 
@@ -173,23 +173,23 @@ These papers define what a World Model *is* and trace the evolution to current s
 
 #### Latent State Space Models (the engine of most world models)
 
-* \[⭐️] **RSSM: Recurrent State Space Model** — Hafner et al., 2019. The architecture inside all Dreamer variants. Combines a deterministic GRU path (stable long-range memory) with a stochastic latent path (capturing uncertainty). Understanding why *both* are needed — and what fails with only one — is fundamental. [!\[arXiv](https://img.shields.io/badge/arXiv-1811.04551-b31b1b.svg)](https://arxiv.org/abs/1811.04551)
-* **Mamba** — Gu et al., 2023. State space models challenging transformer dominance on long sequences. Linear-time complexity. Increasingly appearing in world model architectures. [!\[arXiv](https://img.shields.io/badge/arXiv-2312.00752-b31b1b.svg)](https://arxiv.org/abs/2312.00752) [!\[Code](https://img.shields.io/badge/Code-GitHub-black.svg)](https://github.com/state-spaces/mamba)
+* \[⭐️] **RSSM: Recurrent State Space Model** — Hafner et al., 2019. The architecture inside all Dreamer variants. Combines a deterministic GRU path (stable long-range memory) with a stochastic latent path (capturing uncertainty). Understanding why *both* are needed — and what fails with only one — is fundamental. [![arXiv](https://img.shields.io/badge/arXiv-1811.04551-b31b1b.svg)](https://arxiv.org/abs/1811.04551)
+* **Mamba** — Gu et al., 2023. State space models challenging transformer dominance on long sequences. Linear-time complexity. Increasingly appearing in world model architectures. [![arXiv](https://img.shields.io/badge/arXiv-2312.00752-b31b1b.svg)](https://arxiv.org/abs/2312.00752) [![Code](https://img.shields.io/badge/Code-GitHub-black.svg)](https://github.com/state-spaces/mamba)
 
 #### Transformers as World Models
 
-* \[⭐️] **IRIS: Transformers are Sample-Efficient World Models** — Micheli et al., 2023. Discrete tokenization via VQ-VAE + transformer as dynamics model. Beats Dreamer on Atari. Shows transformers can replace RSSMs. [!\[arXiv](https://img.shields.io/badge/arXiv-2209.00588-b31b1b.svg)](https://arxiv.org/abs/2209.00588) [!\[Code](https://img.shields.io/badge/Code-GitHub-black.svg)](https://github.com/eloialonso/iris)
-* **Gato** — Reed et al., DeepMind, 2022. A single transformer trained as a generalist agent across 600+ tasks — text, images, robot control, games. The LLM-as-world-model paradigm at scale. [!\[arXiv](https://img.shields.io/badge/arXiv-2205.06175-b31b1b.svg)](https://arxiv.org/abs/2205.06175)
+* \[⭐️] **IRIS: Transformers are Sample-Efficient World Models** — Micheli et al., 2023. Discrete tokenization via VQ-VAE + transformer as dynamics model. Beats Dreamer on Atari. Shows transformers can replace RSSMs. [![arXiv](https://img.shields.io/badge/arXiv-2209.00588-b31b1b.svg)](https://arxiv.org/abs/2209.00588) [![Code](https://img.shields.io/badge/Code-GitHub-black.svg)](https://github.com/eloialonso/iris)
+* **Gato** — Reed et al., DeepMind, 2022. A single transformer trained as a generalist agent across 600+ tasks — text, images, robot control, games. The LLM-as-world-model paradigm at scale. [![arXiv](https://img.shields.io/badge/arXiv-2205.06175-b31b1b.svg)](https://arxiv.org/abs/2205.06175)
 
 #### Diffusion-Based World Models
 
-* \[⭐️] **DIAMOND: Diffusion for World Modeling** — Alonso et al., 2024. Diffusion model as the dynamics model — pixel-perfect visual quality on Atari. Shows diffusion is viable as a dynamics model, not just a generator. [!\[arXiv](https://img.shields.io/badge/arXiv-2405.12399-b31b1b.svg)](https://arxiv.org/abs/2405.12399) [!\[Code](https://img.shields.io/badge/Code-GitHub-black.svg)](https://github.com/eloialonso/diamond)
-* \[⭐️] **GameNGen** — Valevski et al., Google, 2024. First real-time neural game engine — runs DOOM at 20 FPS purely via diffusion. The world model *is* the game. [!\[arXiv](https://img.shields.io/badge/arXiv-2408.14837-b31b1b.svg)](https://arxiv.org/abs/2408.14837)
+* \[⭐️] **DIAMOND: Diffusion for World Modeling** — Alonso et al., 2024. Diffusion model as the dynamics model — pixel-perfect visual quality on Atari. Shows diffusion is viable as a dynamics model, not just a generator. [![arXiv](https://img.shields.io/badge/arXiv-2405.12399-b31b1b.svg)](https://arxiv.org/abs/2405.12399) [![Code](https://img.shields.io/badge/Code-GitHub-black.svg)](https://github.com/eloialonso/diamond)
+* \[⭐️] **GameNGen** — Valevski et al., Google, 2024. First real-time neural game engine — runs DOOM at 20 FPS purely via diffusion. The world model *is* the game. [![arXiv](https://img.shields.io/badge/arXiv-2408.14837-b31b1b.svg)](https://arxiv.org/abs/2408.14837)
 
 #### JEPA — The LeCun School
 
-* \[⭐️] **I-JEPA** — Assran et al., Meta, 2023. Predict in *representation space*, not pixel space — avoid reconstructing irrelevant details. The conceptual foundation for world models that don't waste capacity on pixels. [!\[arXiv](https://img.shields.io/badge/arXiv-2301.08243-b31b1b.svg)](https://arxiv.org/abs/2301.08243) [!\[Code](https://img.shields.io/badge/Code-GitHub-black.svg)](https://github.com/facebookresearch/ijepa)
-* **V-JEPA** — Bardes et al., Meta, 2024. JEPA for video — predicts future video representations without generating pixels. [!\[Website](https://img.shields.io/badge/Website-Meta\_AI-blue.svg)](https://ai.meta.com/research/publications/revisiting-feature-prediction-for-learning-visual-representations-from-video/)
+* \[⭐️] **I-JEPA** — Assran et al., Meta, 2023. Predict in *representation space*, not pixel space — avoid reconstructing irrelevant details. The conceptual foundation for world models that don't waste capacity on pixels. [![arXiv](https://img.shields.io/badge/arXiv-2301.08243-b31b1b.svg)](https://arxiv.org/abs/2301.08243) [![Code](https://img.shields.io/badge/Code-GitHub-black.svg)](https://github.com/facebookresearch/ijepa)
+* **V-JEPA** — Bardes et al., Meta, 2024. JEPA for video — predicts future video representations without generating pixels. [![Website](https://img.shields.io/badge/Website-Meta\_AI-blue.svg)](https://ai.meta.com/research/publications/revisiting-feature-prediction-for-learning-visual-representations-from-video/)
 
 \---
 
@@ -197,17 +197,17 @@ These papers define what a World Model *is* and trace the evolution to current s
 
 Modern world models are built on top of these. You cannot understand the dynamics model, decoder, or tokenizer without knowing these deeply.
 
-* \[⭐️] **VAE — Variational Autoencoder** — Kingma \& Welling, 2013. Understand the ELBO derivation, reparameterization trick, and why KL divergence regularizes the latent space. Appears directly inside DreamerV1. [!\[arXiv](https://img.shields.io/badge/arXiv-1312.6114-b31b1b.svg)](https://arxiv.org/abs/1312.6114)
-* \[⭐️] **VQ-VAE** — van den Oord et al., 2017. Discrete tokenization via vector quantization. The tokenizer inside IRIS, Gato, and most video world models. [!\[arXiv](https://img.shields.io/badge/arXiv-1711.00937-b31b1b.svg)](https://arxiv.org/abs/1711.00937)
-* \[⭐️] **Diffusion Models (DDPM)** — Ho et al., 2020. The architecture underlying DIAMOND, GameNGen, and most video world models. [!\[arXiv](https://img.shields.io/badge/arXiv-2006.11239-b31b1b.svg)](https://arxiv.org/abs/2006.11239) [!\[Blog](https://img.shields.io/badge/Blog-Lilian\_Weng-orange.svg)](https://lilianweng.github.io/posts/2021-07-11-diffusion-models/) [!\[Tutorial](https://img.shields.io/badge/Tutorial-HuggingFace-blue.svg)](https://huggingface.co/blog/annotated-diffusion)
+* \[⭐️] **VAE — Variational Autoencoder** — Kingma \& Welling, 2013. Understand the ELBO derivation, reparameterization trick, and why KL divergence regularizes the latent space. Appears directly inside DreamerV1. [![arXiv](https://img.shields.io/badge/arXiv-1312.6114-b31b1b.svg)](https://arxiv.org/abs/1312.6114)
+* \[⭐️] **VQ-VAE** — van den Oord et al., 2017. Discrete tokenization via vector quantization. The tokenizer inside IRIS, Gato, and most video world models. [![arXiv](https://img.shields.io/badge/arXiv-1711.00937-b31b1b.svg)](https://arxiv.org/abs/1711.00937)
+* \[⭐️] **Diffusion Models (DDPM)** — Ho et al., 2020. The architecture underlying DIAMOND, GameNGen, and most video world models. [![arXiv](https://img.shields.io/badge/arXiv-2006.11239-b31b1b.svg)](https://arxiv.org/abs/2006.11239) [![Blog](https://img.shields.io/badge/Blog-Lilian\_Weng-orange.svg)](https://lilianweng.github.io/posts/2021-07-11-diffusion-models/) [![Tutorial](https://img.shields.io/badge/Tutorial-HuggingFace-blue.svg)](https://huggingface.co/blog/annotated-diffusion)
 
 \---
 
 ### 🎬 Video Generation as World Modeling
 
-* \[⭐️] **Is Sora a World Simulator?** — Survey, 2024. Best overview of video generation as world modeling. Read first for big picture. [!\[arXiv](https://img.shields.io/badge/arXiv-2405.03520-b31b1b.svg)](https://arxiv.org/abs/2405.03520) [!\[Website](https://img.shields.io/badge/Website-Link-blue.svg)](https://github.com/GigaAI-research/General-World-Models-Survey)
-* **GAIA-1** — Wayve, 2023. Generative world model for autonomous driving trained on real driving video. [!\[arXiv](https://img.shields.io/badge/arXiv-2309.17080-b31b1b.svg)](https://arxiv.org/abs/2309.17080)
-* **iVideoGPT** — Wu et al., 2024. Scalable interactive video world models for robotics — conditions generation on actions. [!\[arXiv](https://img.shields.io/badge/arXiv-2405.15223-b31b1b.svg)](https://arxiv.org/abs/2405.15223) [!\[Code](https://img.shields.io/badge/Code-GitHub-black.svg)](https://github.com/thuml/iVideoGPT)
+* \[⭐️] **Is Sora a World Simulator?** — Survey, 2024. Best overview of video generation as world modeling. Read first for big picture. [![arXiv](https://img.shields.io/badge/arXiv-2405.03520-b31b1b.svg)](https://arxiv.org/abs/2405.03520) [![Website](https://img.shields.io/badge/Website-Link-blue.svg)](https://github.com/GigaAI-research/General-World-Models-Survey)
+* **GAIA-1** — Wayve, 2023. Generative world model for autonomous driving trained on real driving video. [![arXiv](https://img.shields.io/badge/arXiv-2309.17080-b31b1b.svg)](https://arxiv.org/abs/2309.17080)
+* **iVideoGPT** — Wu et al., 2024. Scalable interactive video world models for robotics — conditions generation on actions. [![arXiv](https://img.shields.io/badge/arXiv-2405.15223-b31b1b.svg)](https://arxiv.org/abs/2405.15223) [![Code](https://img.shields.io/badge/Code-GitHub-black.svg)](https://github.com/thuml/iVideoGPT)
 
 \---
 
@@ -255,16 +255,16 @@ The core gap: robots still fail at tasks humans do trivially. A robot that can *
 
 **Papers:**
 
-* \[⭐️] **EnerVerse** — 2025. Best recent world model for robot manipulation. [!\[arXiv](https://img.shields.io/badge/arXiv-2501.01895-b31b1b.svg)](https://arxiv.org/abs/2501.01895)
-* \[⭐️] **FLARE** — NVIDIA, 2025. World model embedded inside a VLA — current SOTA design pattern. [!\[arXiv](https://img.shields.io/badge/arXiv-2505.15659-b31b1b.svg)](https://arxiv.org/abs/2505.15659)
-* **RoboDreamer** — 2024. Compositional world models for generalizable robot imagination. [!\[arXiv](https://img.shields.io/badge/arXiv-2404.12377-b31b1b.svg)](https://arxiv.org/abs/2404.12377)
-* **ManiGaussian** — 2024. 3D-aware world model using Gaussian splatting for manipulation. [!\[arXiv](https://img.shields.io/badge/arXiv-2403.08321-b31b1b.svg)](https://arxiv.org/abs/2403.08321)
-* **AdaWorld** — 2025. Latent action learning and cross-embodiment transfer. [!\[arXiv](https://img.shields.io/badge/arXiv-2503.18938-b31b1b.svg)](https://arxiv.org/abs/2503.18938)
-* **CoT-VLA** — 2025. Visual chain-of-thought for robots — reasoning through imagined futures before acting. [!\[arXiv](https://img.shields.io/badge/arXiv-2503.22020-b31b1b.svg)](https://arxiv.org/abs/2503.22020)
+* \[⭐️] **EnerVerse** — 2025. Best recent world model for robot manipulation. [![arXiv](https://img.shields.io/badge/arXiv-2501.01895-b31b1b.svg)](https://arxiv.org/abs/2501.01895)
+* \[⭐️] **FLARE** — NVIDIA, 2025. World model embedded inside a VLA — current SOTA design pattern. [![arXiv](https://img.shields.io/badge/arXiv-2505.15659-b31b1b.svg)](https://arxiv.org/abs/2505.15659)
+* **RoboDreamer** — 2024. Compositional world models for generalizable robot imagination. [![arXiv](https://img.shields.io/badge/arXiv-2404.12377-b31b1b.svg)](https://arxiv.org/abs/2404.12377)
+* **ManiGaussian** — 2024. 3D-aware world model using Gaussian splatting for manipulation. [![arXiv](https://img.shields.io/badge/arXiv-2403.08321-b31b1b.svg)](https://arxiv.org/abs/2403.08321)
+* **AdaWorld** — 2025. Latent action learning and cross-embodiment transfer. [![arXiv](https://img.shields.io/badge/arXiv-2503.18938-b31b1b.svg)](https://arxiv.org/abs/2503.18938)
+* **CoT-VLA** — 2025. Visual chain-of-thought for robots — reasoning through imagined futures before acting. [![arXiv](https://img.shields.io/badge/arXiv-2503.22020-b31b1b.svg)](https://arxiv.org/abs/2503.22020)
 
 **Also learn:** ROS2 basics, MuJoCo, Genesis, Isaac Sim/Lab, Open X-Embodiment, AgiBot World, BridgeData V2.
 
-📖 **Track Survey:** [!\[arXiv](https://img.shields.io/badge/arXiv-2510.16732-b31b1b.svg)](https://arxiv.org/abs/2510.16732) A Comprehensive Survey on World Models for Embodied AI
+📖 **Track Survey:** [![arXiv](https://img.shields.io/badge/arXiv-2510.16732-b31b1b.svg)](https://arxiv.org/abs/2510.16732) A Comprehensive Survey on World Models for Embodied AI
 
 \---
 
@@ -292,15 +292,15 @@ The gap: AV systems struggle with long-tail rare events. A world model trained o
 
 **Papers:**
 
-* \[⭐️] **GAIA-2** — Wayve, 2025. Controllable multi-view driving world model. Current SOTA. [!\[arXiv](https://img.shields.io/badge/arXiv-2503.20523-b31b1b.svg)](https://arxiv.org/abs/2503.20523)
-* \[⭐️] **Cosmos Drive Dreams** — NVIDIA, 2025. World foundation model for scalable synthetic driving data. [!\[arXiv](https://img.shields.io/badge/arXiv-2506.09042-b31b1b.svg)](https://arxiv.org/abs/2506.09042)
-* **DriveDreamer** — 2023. Foundational driving world model conditioned on HD maps and text. [!\[arXiv](https://img.shields.io/badge/arXiv-2309.09777-b31b1b.svg)](https://arxiv.org/abs/2309.09777)
-* **OccWorld** — 2023. 3D occupancy forecasting as a world model. [!\[arXiv](https://img.shields.io/badge/arXiv-2311.16038-b31b1b.svg)](https://arxiv.org/abs/2311.16038)
-* **UniSim** — 2023. Neural closed-loop sensor simulator as world model for AV training. [!\[arXiv](https://img.shields.io/badge/arXiv-2308.01545-b31b1b.svg)](https://arxiv.org/abs/2308.01545)
+* \[⭐️] **GAIA-2** — Wayve, 2025. Controllable multi-view driving world model. Current SOTA. [![arXiv](https://img.shields.io/badge/arXiv-2503.20523-b31b1b.svg)](https://arxiv.org/abs/2503.20523)
+* \[⭐️] **Cosmos Drive Dreams** — NVIDIA, 2025. World foundation model for scalable synthetic driving data. [![arXiv](https://img.shields.io/badge/arXiv-2506.09042-b31b1b.svg)](https://arxiv.org/abs/2506.09042)
+* **DriveDreamer** — 2023. Foundational driving world model conditioned on HD maps and text. [![arXiv](https://img.shields.io/badge/arXiv-2309.09777-b31b1b.svg)](https://arxiv.org/abs/2309.09777)
+* **OccWorld** — 2023. 3D occupancy forecasting as a world model. [![arXiv](https://img.shields.io/badge/arXiv-2311.16038-b31b1b.svg)](https://arxiv.org/abs/2311.16038)
+* **UniSim** — 2023. Neural closed-loop sensor simulator as world model for AV training. [![arXiv](https://img.shields.io/badge/arXiv-2308.01545-b31b1b.svg)](https://arxiv.org/abs/2308.01545)
 
 **Also learn:** BEV representations, nuScenes dataset, Waymo Open Dataset, sensor fusion, occupancy prediction.
 
-📖 **Track Survey:** [!\[arXiv](https://img.shields.io/badge/arXiv-2501.11260-b31b1b.svg)](https://arxiv.org/abs/2501.11260) A Survey of World Models for Autonomous Driving
+📖 **Track Survey:** [![arXiv](https://img.shields.io/badge/arXiv-2501.11260-b31b1b.svg)](https://arxiv.org/abs/2501.11260) A Survey of World Models for Autonomous Driving
 
 \---
 
@@ -325,10 +325,10 @@ The gap: neural world models that understand game physics can generate novel con
 
 **Papers:**
 
-* \[⭐️] **GameNGen** — Google, 2024. Neural game engine running DOOM at 20 FPS. The paper that launched this track as a serious research direction. [!\[arXiv](https://img.shields.io/badge/arXiv-2408.14837-b31b1b.svg)](https://arxiv.org/abs/2408.14837)
-* \[⭐️] **DIAMOND** — 2024. Best visual quality for game world modeling. Study the open-source code. [!\[arXiv](https://img.shields.io/badge/arXiv-2405.12399-b31b1b.svg)](https://arxiv.org/abs/2405.12399) [!\[Code](https://img.shields.io/badge/Code-GitHub-black.svg)](https://github.com/eloialonso/diamond)
-* **Oasis** — Decart, 2024. Minecraft as a world model — interactive, real-time, playable. [!\[Website](https://img.shields.io/badge/Website-oasis--model.github.io-blue.svg)](https://oasis-model.github.io/)
-* **Matrix-Game** — 2025. Open-source real-time interactive world model. [!\[arXiv](https://img.shields.io/badge/arXiv-2506.18701-b31b1b.svg)](https://arxiv.org/abs/2506.18701)
+* \[⭐️] **GameNGen** — Google, 2024. Neural game engine running DOOM at 20 FPS. The paper that launched this track as a serious research direction. [![arXiv](https://img.shields.io/badge/arXiv-2408.14837-b31b1b.svg)](https://arxiv.org/abs/2408.14837)
+* \[⭐️] **DIAMOND** — 2024. Best visual quality for game world modeling. Study the open-source code. [![arXiv](https://img.shields.io/badge/arXiv-2405.12399-b31b1b.svg)](https://arxiv.org/abs/2405.12399) [![Code](https://img.shields.io/badge/Code-GitHub-black.svg)](https://github.com/eloialonso/diamond)
+* **Oasis** — Decart, 2024. Minecraft as a world model — interactive, real-time, playable. [![Website](https://img.shields.io/badge/Website-oasis--model.github.io-blue.svg)](https://oasis-model.github.io/)
+* **Matrix-Game** — 2025. Open-source real-time interactive world model. [![arXiv](https://img.shields.io/badge/arXiv-2506.18701-b31b1b.svg)](https://arxiv.org/abs/2506.18701)
 
 \---
 
@@ -415,13 +415,13 @@ This becomes your research sample for PhD programs or research positions. A nega
 
 |Lecture|Link|Why|
 |-|-|-|
-|**David Silver's RL Course**|[!\[YouTube](https://img.shields.io/badge/YouTube-UCL\_RL-red.svg)](https://www.youtube.com/playlist?list=PLqYmG7hTraZBiG_XpjnPrSNw-1XQaM_gB)|Foundational RL. Lectures 1–9 essential.|
-|**CS285 Deep RL — Berkeley**|[!\[Website](https://img.shields.io/badge/Website-Berkeley-blue.svg)](https://rail.eecs.berkeley.edu/deeprlcourse/)|Lecture 12 (Model-Based RL) is mandatory.|
-|**DeepMind RL Series 2021**|[!\[Website](https://img.shields.io/badge/Website-DeepMind-blue.svg)](https://deepmind.com/learning-resources/reinforcement-learning-series-2021)|From the people building Dreamer.|
-|**World Model Workshop at Mila**|[!\[Website](https://img.shields.io/badge/Website-Mila-blue.svg)](https://world-model-mila.github.io/)|Bengio, LeCun, Schmidhuber, Sherry Yang. Watch all.|
-|**Yann LeCun: Autonomous Machine Intelligence**|[!\[YouTube](https://img.shields.io/badge/YouTube-Lex\_Fridman-red.svg)](https://www.youtube.com/watch?v=SGzMElJ11Cc)|The JEPA and energy-based model vision.|
-|**Jim Fan: Foundation Models for Robotics**|[!\[YouTube](https://img.shields.io/badge/YouTube-NVIDIA-red.svg)](https://www.youtube.com/watch?v=vK5DMhxnJ70)|How industry thinks about robot world models.|
-|**Andrej Karpathy: State of GPT**|[!\[YouTube](https://img.shields.io/badge/YouTube-Microsoft-red.svg)](https://www.youtube.com/watch?v=bZQun8Y4L2A)|LLM architecture underlying modern world models.|
+|**David Silver's RL Course**|[![YouTube](https://img.shields.io/badge/YouTube-UCL\_RL-red.svg)](https://www.youtube.com/playlist?list=PLqYmG7hTraZBiG_XpjnPrSNw-1XQaM_gB)|Foundational RL. Lectures 1–9 essential.|
+|**CS285 Deep RL — Berkeley**|[![Website](https://img.shields.io/badge/Website-Berkeley-blue.svg)](https://rail.eecs.berkeley.edu/deeprlcourse/)|Lecture 12 (Model-Based RL) is mandatory.|
+|**DeepMind RL Series 2021**|[![Website](https://img.shields.io/badge/Website-DeepMind-blue.svg)](https://deepmind.com/learning-resources/reinforcement-learning-series-2021)|From the people building Dreamer.|
+|**World Model Workshop at Mila**|[![Website](https://img.shields.io/badge/Website-Mila-blue.svg)](https://world-model-mila.github.io/)|Bengio, LeCun, Schmidhuber, Sherry Yang. Watch all.|
+|**Yann LeCun: Autonomous Machine Intelligence**|[![YouTube](https://img.shields.io/badge/YouTube-Lex\_Fridman-red.svg)](https://www.youtube.com/watch?v=SGzMElJ11Cc)|The JEPA and energy-based model vision.|
+|**Jim Fan: Foundation Models for Robotics**|[![YouTube](https://img.shields.io/badge/YouTube-NVIDIA-red.svg)](https://www.youtube.com/watch?v=vK5DMhxnJ70)|How industry thinks about robot world models.|
+|**Andrej Karpathy: State of GPT**|[![YouTube](https://img.shields.io/badge/YouTube-Microsoft-red.svg)](https://www.youtube.com/watch?v=bZQun8Y4L2A)|LLM architecture underlying modern world models.|
 
 \---
 
@@ -429,9 +429,9 @@ This becomes your research sample for PhD programs or research positions. A nega
 
 |Book|Read For|Link|
 |-|-|-|
-|**RL: An Introduction** — Sutton \& Barto|Core RL theory. Read Ch. 1–9, 13.|[!\[PDF](https://img.shields.io/badge/PDF-Free-lightgrey.svg)](http://incompleteideas.net/book/RLbook2020.pdf)|
-|**Deep Learning** — Goodfellow et al.|Foundations. Especially Ch. 6, 9, 10.|[!\[Website](https://img.shields.io/badge/Website-Free\_Online-blue.svg)](https://www.deeplearningbook.org/)|
-|**Probabilistic Machine Learning Vol. 1** — Kevin Murphy|VAEs, state-space models, Bayesian perspective.|[!\[PDF](https://img.shields.io/badge/PDF-Free-lightgrey.svg)](https://probml.github.io/pml-book/book1.html)|
+|**RL: An Introduction** — Sutton \& Barto|Core RL theory. Read Ch. 1–9, 13.|[![PDF](https://img.shields.io/badge/PDF-Free-lightgrey.svg)](http://incompleteideas.net/book/RLbook2020.pdf)|
+|**Deep Learning** — Goodfellow et al.|Foundations. Especially Ch. 6, 9, 10.|[![Website](https://img.shields.io/badge/Website-Free\_Online-blue.svg)](https://www.deeplearningbook.org/)|
+|**Probabilistic Machine Learning Vol. 1** — Kevin Murphy|VAEs, state-space models, Bayesian perspective.|[![PDF](https://img.shields.io/badge/PDF-Free-lightgrey.svg)](https://probml.github.io/pml-book/book1.html)|
 
 \---
 
@@ -440,9 +440,9 @@ This becomes your research sample for PhD programs or research positions. A nega
 |Resource|How to Use It|
 |-|-|
 |**arXiv cs.LG + cs.RO + cs.CV**|Skim titles daily, deep-read 1–2 papers/week. Keep a reading tracker.|
-|**Hugging Face Papers**|[!\[Website](https://img.shields.io/badge/Website-HuggingFace-blue.svg)](https://huggingface.co/papers) Curated daily feed with community notes|
-|**Papers With Code**|[!\[Website](https://img.shields.io/badge/Website-PapersWithCode-blue.svg)](https://paperswithcode.com/task/world-model) Find implementations alongside papers|
-|**Lilian Weng's Blog**|[!\[Website](https://img.shields.io/badge/Website-lilianweng.github.io-blue.svg)](https://lilianweng.github.io) Best written technical summaries in the field|
+|**Hugging Face Papers**|[![Website](https://img.shields.io/badge/Website-HuggingFace-blue.svg)](https://huggingface.co/papers) Curated daily feed with community notes|
+|**Papers With Code**|[![Website](https://img.shields.io/badge/Website-PapersWithCode-blue.svg)](https://paperswithcode.com/task/world-model) Find implementations alongside papers|
+|**Lilian Weng's Blog**|[![Website](https://img.shields.io/badge/Website-lilianweng.github.io-blue.svg)](https://lilianweng.github.io) Best written technical summaries in the field|
 |**Twitter/X**|Follow @DanijarHafner, @jimfan, @ylecun, @karpathy, @DrJimFan|
 
 \---
@@ -497,16 +497,16 @@ This becomes your research sample for PhD programs or research positions. A nega
 
 |Resource|Link|
 |-|-|
-|Original World Models paper|[!\[arXiv](https://img.shields.io/badge/arXiv-1803.10122-b31b1b.svg)](https://arxiv.org/abs/1803.10122)|
-|DreamerV3 paper|[!\[arXiv](https://img.shields.io/badge/arXiv-2301.04104-b31b1b.svg)](https://arxiv.org/abs/2301.04104)|
-|DreamerV3 open-source code|[!\[Code](https://img.shields.io/badge/Code-GitHub-black.svg)](https://github.com/danijar/dreamerv3)|
-|Spinning Up in Deep RL|[!\[Website](https://img.shields.io/badge/Website-spinningup.ai-blue.svg)](https://spinningup.openai.com)|
-|Sutton \& Barto (free)|[!\[PDF](https://img.shields.io/badge/PDF-Free-lightgrey.svg)](http://incompleteideas.net/book/RLbook2020.pdf)|
-|Awesome World Models (full paper list)|[!\[GitHub](https://img.shields.io/badge/GitHub-Awesome\_World\_Models-black.svg)](https://github.com/knightnemo/Awesome-World-Models)|
-|Papers With Code — World Models|[!\[Website](https://img.shields.io/badge/Website-PapersWithCode-blue.svg)](https://paperswithcode.com/task/world-model)|
-|Lilian Weng's Blog|[!\[Website](https://img.shields.io/badge/Website-lilianweng.github.io-blue.svg)](https://lilianweng.github.io)|
-|CS285 Deep RL (Berkeley)|[!\[Website](https://img.shields.io/badge/Website-rail.eecs.berkeley.edu-blue.svg)](https://rail.eecs.berkeley.edu/deeprlcourse/)|
-|World Model Workshop @ Mila|[!\[Website](https://img.shields.io/badge/Website-world--model--mila-blue.svg)](https://world-model-mila.github.io/)|
+|Original World Models paper|[![arXiv](https://img.shields.io/badge/arXiv-1803.10122-b31b1b.svg)](https://arxiv.org/abs/1803.10122)|
+|DreamerV3 paper|[![arXiv](https://img.shields.io/badge/arXiv-2301.04104-b31b1b.svg)](https://arxiv.org/abs/2301.04104)|
+|DreamerV3 open-source code|[![Code](https://img.shields.io/badge/Code-GitHub-black.svg)](https://github.com/danijar/dreamerv3)|
+|Spinning Up in Deep RL|[![Website](https://img.shields.io/badge/Website-spinningup.ai-blue.svg)](https://spinningup.openai.com)|
+|Sutton \& Barto (free)|[![PDF](https://img.shields.io/badge/PDF-Free-lightgrey.svg)](http://incompleteideas.net/book/RLbook2020.pdf)|
+|Awesome World Models (full paper list)|[![GitHub](https://img.shields.io/badge/GitHub-Awesome\_World\_Models-black.svg)](https://github.com/knightnemo/Awesome-World-Models)|
+|Papers With Code — World Models|[![Website](https://img.shields.io/badge/Website-PapersWithCode-blue.svg)](https://paperswithcode.com/task/world-model)|
+|Lilian Weng's Blog|[![Website](https://img.shields.io/badge/Website-lilianweng.github.io-blue.svg)](https://lilianweng.github.io)|
+|CS285 Deep RL (Berkeley)|[![Website](https://img.shields.io/badge/Website-rail.eecs.berkeley.edu-blue.svg)](https://rail.eecs.berkeley.edu/deeprlcourse/)|
+|World Model Workshop @ Mila|[![Website](https://img.shields.io/badge/Website-world--model--mila-blue.svg)](https://world-model-mila.github.io/)|
 
 \---
 
