@@ -1,10 +1,10 @@
 <div align="center">
 
-# 🌍 Awesome World Models \& RL — A Ruthlessly Curated Employability Roadmap
+# 🌍 Awesome World Models \& RL — A Curated Employability Roadmap
 
 [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome) [![GitHub stars](https://img.shields.io/github/stars/sandesh-8622/awesome-world-models-rl-roadmap?style=social)](https://github.com/sandesh-8622/awesome-world-models-rl-roadmap/stargazers) [![License](https://img.shields.io/badge/License-CC0\_1.0-blue.svg)](LICENSE) [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](CONTRIBUTING.md)
 
-**📜 A Ruthlessly Curated Roadmap to Mastering World Models \& Reinforcement Learning — and Getting Hired at Frontier AI Labs and Robotics Companies.**
+**📜 A Curated Roadmap to Mastering World Models \& Reinforcement Learning — and Getting Hired at Frontier AI Labs and Robotics Companies.**
 
 <p align="center">
   <img src="roadmap-visual-employability.png" alt="World Models Zero to Hired Roadmap" width="100%" style="border-radius: 15px; box-shadow: 0 4px 24px rgba(0,0,0,.1); margin: 5px 0;">
